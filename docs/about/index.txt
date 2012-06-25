@@ -1,0 +1,10 @@
+######################
+About novapost.cookbot
+######################
+
+This section is about the project itself.
+
+.. toctree::
+
+   vision
+   alternatives

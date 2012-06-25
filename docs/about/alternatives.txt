@@ -1,0 +1,6 @@
+############
+Alternatives
+############
+
+This document presents other projects that provide similar or complementary
+functionalities. It focuses on differences with novapost.cookbot.

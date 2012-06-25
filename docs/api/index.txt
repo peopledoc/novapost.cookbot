@@ -1,0 +1,13 @@
+###
+API
+###
+
+.. currentmodule:: novapost.cookbot
+
+.. autosummary::
+   :toctree: generated
+
+   context
+   recipes
+   command
+   settings

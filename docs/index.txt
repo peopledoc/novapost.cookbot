@@ -1,0 +1,26 @@
+################
+novapost.cookbot
+################
+
+novapost.cookbot is a contextual execution manager.
+
+
+********
+Contents
+********
+
+.. toctree::
+   :maxdepth: 2
+
+   api/index
+   about/index
+
+
+******************
+Indices and tables
+******************
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+

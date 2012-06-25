@@ -1,0 +1,44 @@
+######
+Vision
+######
+
+novapost.cookbot is a contextual execution handler.
+
+It's goal is not to replace :doc:`other tools, such as provisioning software
+</about/alternatives>`.
+
+Various persons can operate on a project: developers, sysadmins, integrators...
+Since, different actors have different interests, **collaboration matters**.
+
+As an example, developers are not always aware of security, whereas sysadmins
+are not always aware of functionality.
+
+What do they share? They all use some architecture components.
+
+* Actors work in some environments, i.e. prod or dev.
+* Environments are deployed in some physical networks and hardware, i.e. in
+  the cloud, on a hosted server, on a local machine.
+* Architecture differs depending on environments.
+
+Architecture is configuration.
+
+As a member of a project's team, I want:
+
+* to focus on my job, i.e. reuse other's work.
+* to deploy an architecture quickly, i.e. use automated install scripts.
+* to customize things I really need to.
+
+What do I need?
+
+* an igniter: a light package I can use as a start point. It contains minimal
+  configuration and scripts to start with the project and install additional
+  tools.
+
+* configuration templates: customize a few variables and generate full
+  project's configuration.
+
+* contextual execution manager: run generic commands to control customized
+  architecture configuration.
+
+* other tools, such as provisioning servers and clients, remote execution
+  managers, configuration managers, ...
