@@ -29,7 +29,7 @@ class ConfigParserReader(object):
 
         Recipe factory is a string representing the path to a Python module
         and an attribute in this module, separated with a ":" character.
-        As an example, ``rh2.remotecontrol.recipes.base:Recipe`` is the
+        As an example, ``novapost.cookbot.recipes:Recipe`` is the
         default.
 
         ``name`` and ``options`` arguments will be passed to recipe's factory.

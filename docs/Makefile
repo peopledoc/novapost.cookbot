@@ -77,17 +77,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/rh2remotecontrol.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/novapostcookbot.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/rh2remotecontrol.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/novapostcookbot.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/rh2remotecontrol"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/rh2remotecontrol"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/novapostcookbot"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/novapostcookbot"
 	@echo "# devhelp"
 
 epub:

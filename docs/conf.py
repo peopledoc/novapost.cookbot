@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# rh2.remotecontrol documentation build configuration file, created by
+# novapost.cookbot documentation build configuration file, created by
 # sphinx-quickstart on Thu Jun 21 15:41:10 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.

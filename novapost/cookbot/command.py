@@ -24,7 +24,7 @@ class Command(object):
     def parse_shell_args(self, *args, **kwargs):
         """Get configuration from :py:meth:`OptionParser.parse_args`."""
         # Defaults.
-        configuration_file = 'etc/remotecontrol.cfg'
+        configuration_file = 'etc/cookbot.cfg'
         cmd = None
         cmd_args = []
         recipe = None
