@@ -2,7 +2,8 @@
 from cStringIO import StringIO
 from unittest import TestCase
 
-from context import Context
+from wardrobe import StackedDict
+
 from settings import ConfigParserReader
 from recipes import Recipe
 
@@ -169,7 +170,7 @@ recipe = novapost.cookbot.tests:TrackerRecipe
         reader = ConfigParserReader(configuration_file)
         recipe = reader.parse()
         # Special 'install' command enters context after execution.
-        context = Context()
+        context = StackedDict()
         context['traversed_recipes'] = []
         context['testing'] = []
         recipe.execute(context, 'install')
@@ -206,7 +207,7 @@ recipe = novapost.cookbot.tests:TrackerRecipe
                             ]
         self.assertEqual(recipe.context['testing'], expected_context)
         # Non 'install' commands enter context before execution.
-        context = Context()
+        context = StackedDict()
         context['traversed_recipes'] = []
         context['testing'] = []
         recipe.execute(context, 'update')

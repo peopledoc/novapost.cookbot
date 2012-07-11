@@ -1,8 +1,9 @@
 """Implementation of ``cookbot`` script."""
 from optparse import OptionParser
 
+from wardrobe import StackedDict
+
 from settings import ConfigParserReader
-from context import Context
 
 
 class Command(object):
@@ -18,7 +19,7 @@ class Command(object):
 
     def __call__(self):
         """Make it a callable."""
-        context = Context()
+        context = StackedDict()
         return self.recipe.execute(context, self.cmd, self.cmd_args)
 
     def parse_shell_args(self, *args, **kwargs):

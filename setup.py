@@ -30,7 +30,7 @@ setup(name='novapost.cookbot',
       namespace_packages=['novapost'],
       include_package_data=True,
       zip_safe=False,
-      install_requires=['setuptools'],
+      install_requires=['setuptools', 'wardrobe'],
       entry_points={
           "console_scripts": [
               "cookbot = novapost.cookbot.command:main"
